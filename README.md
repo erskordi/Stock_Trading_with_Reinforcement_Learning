@@ -1,6 +1,7 @@
 # Stock Trading with Reinforcement Learning
 
-This repo uses RLlib for training an agent to trade stocks. The environment is based on the one found [here](https://github.com/notadamking/Stock-Trading-Environment). For RL algorithm I used [Proximal Policy Optimization](https://arxiv.org/abs/1707.06347)
+This repo uses RLlib for training an agent to trade stocks. The environment is based on the one found [here](https://github.com/notadamking/Stock-Trading-Environment). 
+For RL algorithm I used [Proximal Policy Optimization](https://arxiv.org/abs/1707.06347)
 
 
 The environment is slightly changed to work with RLlib, please see `StockTradingEnvironment.py`.

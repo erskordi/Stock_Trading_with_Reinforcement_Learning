@@ -15,3 +15,11 @@ pip install ray[rllib, debug]
 ```
 
 You are now ready to run experiments!
+
+The `rllib_trainer.py` uses the `argparse` package to define the number of CPUs/GPUs to use. They are controlled by the following arguments:
+
+```
+--num-cpus
+--num-gpus
+```
+

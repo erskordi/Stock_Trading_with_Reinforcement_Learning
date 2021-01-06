@@ -25,5 +25,5 @@ The `rllib_trainer.py` uses the `argparse` package to define the number of CPUs/
 # TODOs:
 
  - Use policy network other than the default fully-connected deep neural network.
-  - Perhaps LSTMs could yield better results due to the time-series nature of the problem.
+  * Perhaps LSTMs could yield better results due to the time-series nature of the problem.
  - Develop a `rllib_eval.py` script where one could evaluate the quality of the trained agent.
